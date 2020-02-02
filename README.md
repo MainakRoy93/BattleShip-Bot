@@ -15,6 +15,11 @@ After each player has hidden his fleet, players alternate taking shots at each o
 
 ![Architecture Image](https://github.com/MainakRoy93/BattleShip-Bot/blob/master/Images/2020-02-02_16h07_35.png?raw=true "Optional Title")
 
-In the diagram above, misses are depicted by grey crosses and hits by red squares with grey crosses.
+In the diagram above, misses are depicted by grey crosses and hits by red squares with grey crosses. The first player to sink his opponent’s fleet (hitting every location covered with part of a boat) wins the game.
 
-The first player to sink his opponent’s fleet (hitting every location covered with part of a boat) wins the game.
+## Probability Density Functions
+We know which ships (and even more importantly what the lengths of the ships) are still active. These facts are very valuable in determining which location we search next. The algorithm will calculate the most probably location to fire at next based on a superposition of all possible locations the enemy ships could be in. At the start of every new turn, based on the ships still left in the battle, we’ll work out all possible locations that every ship could fit (horizontally or vertically). Initially, this will be pretty much anywhere, but as more and more shots are fired, some locations become less likely, and some impossible. Every time it’s possible for a ship to be placed in over a grid location, we’ll increment a counter for that cell. The result will be a superposition of probabilities.
+
+The program calculates discrete values for the probability of a ship be-ing located at a given cell. These are not true probability density functions which evaluate the integral of a function. The calculated values used in the program would be better classified as a probability density matrix as they are discrete values.The program calculates discrete values for the probability of a ship being located at a given cell. These are not true probability density func-tions which evaluate the integral of a function. The calculated values used in the program would be better classified as a probability density matrix as they are discrete values.
+
+![Architecture Image](https://github.com/MainakRoy93/BattleShip-Bot/blob/master/Images/2020-02-02_16h23_38.png?raw=true "Optional Title")
