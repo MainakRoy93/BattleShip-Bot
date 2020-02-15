@@ -29,6 +29,8 @@ In Hunt Mode the probability value given to a certain cell is determined by the 
 ![Architecture Image](https://github.com/MainakRoy93/BattleShip-Bot/blob/master/Images/2020-02-15_17h39_45.png?raw=true "RAW")
 *The probability density for a single size 3 ship*
 
+![Architecture Image](https://github.com/MainakRoy93/BattleShip-Bot/blob/master/Images/2020-02-15_17h43_50.png?raw=true "RAW")
+*The sum of the probabilities for all ships*
 Below is the flowchart of the logic of the program
 
 ![Architecture Image](https://github.com/MainakRoy93/BattleShip-Bot/blob/master/Images/2020-02-02_16h23_38.png?raw=true "Optional Title")
