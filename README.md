@@ -26,6 +26,8 @@ The program calculates discrete values for the probability of a ship being locat
 
 In Hunt Mode the probability value given to a certain cell is determined by the number of ways a single ship can be oriented to fit on a that cell. The values for each remaining ship size are then summed to produce a final value. Destroy Mode is activated when a ship is hit in Hunt Mode. In Destroy Mode the probability value given to a certain cell is determined by the number of ways a single ship can be oriented to fit on that cell and the hit simultaneously. Again, the values for each remaining ship size are summed to produce a final value.
 
+![Architecture Image](https://github.com/MainakRoy93/BattleShip-Bot/blob/master/Images/2020-02-15_17h39_45.png?raw=true "The probability density for a single size 3 ship")
+
 Below is the flowchart of the logic of the program
 
 ![Architecture Image](https://github.com/MainakRoy93/BattleShip-Bot/blob/master/Images/2020-02-02_16h23_38.png?raw=true "Optional Title")
