@@ -31,6 +31,13 @@ In Hunt Mode the probability value given to a certain cell is determined by the 
 
 ![Architecture Image](https://github.com/MainakRoy93/BattleShip-Bot/blob/master/Images/2020-02-15_17h43_50.png?raw=true "RAW")
 *The sum of the probabilities for all ships*
+
+![Architecture Image](https://github.com/MainakRoy93/BattleShip-Bot/blob/master/Images/2020-02-15_17h46_07.png?raw=true "RAW")
+*A miss at E5 with Hunt Mode Probability*
+
+![Architecture Image](https://github.com/MainakRoy93/BattleShip-Bot/blob/master/Images/2020-02-15_17h46_38.png?raw=true "RAW")
+*A hit at F6 with Destroy Mode Probability*
+
 Below is the flowchart of the logic of the program
 
 ![Architecture Image](https://github.com/MainakRoy93/BattleShip-Bot/blob/master/Images/2020-02-02_16h23_38.png?raw=true "Optional Title")
